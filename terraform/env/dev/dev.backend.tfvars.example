@@ -1,0 +1,6 @@
+resource_group_name  = "tfstate-rg"
+storage_account_name = "your-tfstate-storage"
+container_name       = "tfstate"
+key                  = "demo/terraform.tfstate"
+subscription_id      = "00000000-0000-0000-0000-000000000000"
+use_azuread_auth     = true

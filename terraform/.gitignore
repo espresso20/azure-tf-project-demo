@@ -1,0 +1,12 @@
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfplan
+crash.log
+crash.*.log
+
+# env-specific config — copy from *.example and fill in
+env/**/*.tfvars
+!env/**/*.tfvars.example
